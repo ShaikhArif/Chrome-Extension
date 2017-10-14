@@ -1,0 +1,32 @@
+
+
+
+{
+
+
+
+  "manifest_version" : 2,
+  "name": "NewsSummedUp Fetcher",
+  "version": "0.1",
+  "description": "Keep up with the latest from[NewsSummedUp].",
+  
+  "icons": {
+  				"50":"images.png"
+  			},
+  
+  
+  "browser_action": {
+  						  "default_icon": "nss.png",
+  						  "default_title": "[NewsSummedUp] Notifier",
+    					  "default_popup": "html.html"
+  					},
+
+  	"permissions": [
+	 					 "http://www.newssummedup.com/*"
+				    ]
+
+
+
+
+
+}
